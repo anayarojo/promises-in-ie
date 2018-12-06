@@ -7,9 +7,9 @@ $(document).ready(function(){
     });
     
     promise.then(function(result) {
-        alert("Fulfilled: " + result);
+        alert("Success");
     }, function(error) {
-        alert("Rejected: " + error);
+        alert("Fail");
     });
 
 });
